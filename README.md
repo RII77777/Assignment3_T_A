@@ -116,7 +116,7 @@ This confirmed that both algorithms produced identical Minimum Spanning Tree tot
 
 Example input format (input.json)
 
-```json
+```
 {
   "graphs": [
     {
@@ -134,6 +134,7 @@ Example input format (input.json)
     }
   ]
 }
+```
 
 Algorithm Comparison (based on output.json)
 
