@@ -7,6 +7,7 @@ Introduction
 This project implements and analyzes two Minimum Spanning Tree algorithms: Prim’s algorithm and Kruskal’s algorithm. Their performance was compared using measurements such as total Minimum Spanning Tree cost, operation count, and execution time. Additionally, unit testing and a custom graph implementation were included to ensure algorithmic reliability and scalability.
 
 Objectives
+
 According to the assignment requirements, this implementation:
 1. Reads graph data from an input JSON file.
 2. Uses the provided file format to create custom test JSON files.
@@ -20,6 +21,7 @@ According to the assignment requirements, this implementation:
 5. Compares the performance results of both algorithms.
 
 Purpose
+
 The purpose of this assignment is to simulate the optimization of a city transportation system by determining the minimum set of roads required to connect all districts at the lowest total cost. The project also includes performance evaluation and comparison of Prim’s and Kruskal’s algorithms.
 
 Project Structure
@@ -192,6 +194,7 @@ Implemented as an optional task for additional credit.
 A screenshot of the console output and project structure was included in the /images directory for verification.
 
 Conclusion
+
 The experimental results confirm theoretical expectations: Kruskal’s algorithm is more efficient on sparse graphs, while Prim’s demonstrates better scalability for dense structures. Both implementations consistently produced identical MST costs, validating correctness. The integration of automated testing and a custom graph structure further demonstrated a solid understanding of algorithmic design, testing, and performance evaluation.
 
 Araizhan Tazhimova
